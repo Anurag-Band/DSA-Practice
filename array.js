@@ -163,4 +163,27 @@ console.log("inside array");
 
 // console.log(newArr);
 
+// ! ->> merge two array using while loop
+
+// const arr1 = [21, 34, 53, 2, 10];
+// const arr2 = [10, 20, 30, 40, 50];
+
+// const newArr = [];
+// let i = 0;
+
+// //? Copy elements from arr1 to newArr
+// while (i < arr1.length) {
+//   newArr[i] = arr1[i];
+//   i++;
+// }
+
+// let j = 0;
+
+// //? Copy elements from arr2 to newArr starting from index i
+// while (j < arr2.length) {
+//   newArr[i + j] = arr2[j];
+//   j++;
+// }
+
+// console.log("Merged array:", newArr);
 
