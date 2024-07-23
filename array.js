@@ -144,5 +144,23 @@ console.log("inside array");
 
 // console.log(`elem ${searchElem} is at ${itemIndex}`);
 
+// ! ->> merge two array
+
+const arr1 = [21, 34, 53, 2, 10];
+const arr2 = [10, 20, 30, 40, 50];
+
+const newArr = [];
+
+for(let i = 0; i < arr1.length; i++){
+  newArr.push(arr1[i])
+}
+
+for(let i = 0; i < arr2.length; i++){
+  newArr.push(arr2[i])
+}
+
+console.log(newArr);
+
+
 
 
