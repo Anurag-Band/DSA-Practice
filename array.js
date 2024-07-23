@@ -18,7 +18,7 @@ console.log("inside array");
 // const position = 12;
 
 // function getEleByPosition(arr, position) {
-// ? added validations to avoid unexpected answers
+// //? added validations to avoid unexpected answers
 //   if (!(position < arr.length) ||
 //     (position < 1 && typeof parseInt(position) === "number")
 //   ) {
@@ -58,5 +58,48 @@ console.log("inside array");
 // }
 
 // insertEle();
+
+// ! ->> insert element in array using js default function
+
+// let arr = [23, 19, 10, 34, 45, 60];
+// console.log(arr);
+
+// arr.splice(3,1,69)
+// console.log(arr);
+
+// ! ->> replace element in array
+
+// let arr = [23, 19, 10, 34, 45, 60];
+// console.log(arr);
+
+// const replEle = 69;
+// const position = 3;
+
+// arr[position - 1] = replEle;
+
+// console.log(arr);
+
+// ! ->> delete element in array
+//  ** 1.
+
+let arr = [23, 19, 10, 34, 45, 60];
+console.log(arr);
+
+const delPosition = 2;
+
+function delEle() {
+  if (delPosition > arr.length || delPosition < 1)
+    return alert("Please enter valid input");
+
+  for (let i = delPosition - 1; i < arr.length - 1; i++) {
+    arr[i] = arr[i + 1];
+  }
+
+  arr.length = arr.length - 1;
+
+  console.log(arr);
+}
+
+delEle();
 
 
