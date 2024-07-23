@@ -81,7 +81,7 @@ console.log("inside array");
 
 // ! ->> delete element in array
 //  ** 1. copy the elements from delete position to one step behind
-//  ** 2. then decrease the lengh of array by 1 
+//  ** 2. then decrease the lengh of array by 1
 
 // let arr = [23, 19, 10, 34, 45, 60];
 // console.log(arr);
@@ -102,6 +102,31 @@ console.log("inside array");
 // }
 
 // delEle();
+
+// ! ->> understanding for loop logic
+
+// const arr = [1, 2, 3, 4, 5];
+
+// ? Both loops 1 & 2 gives same output -->>
+
+//? loop 1 (assending order) :-
+// for (let i = 0; i <= arr.length - 1; i++) {
+//   console.warn(arr[i]);
+// }
+
+// console.error("Break!!!");
+
+//? loop 2 (assending order) :-
+// for (let i = 0; i < arr.length; i++) {
+//   console.warn(arr[i]);
+// }
+
+// ! only this methon works for desending order loop
+//? loop 3 (desending order) :- 
+// for (let i = arr.length - 1; i >= 0; i--) {
+//   console.warn(arr[i]);
+// }
+
 
 
 
