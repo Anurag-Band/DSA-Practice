@@ -85,17 +85,17 @@ console.log("inside array");
 let arr = [23, 19, 10, 34, 45, 60];
 console.log(arr);
 
-const delPosition = 2;
+const delPosition = 2; // considering this as index number
 
 function delEle() {
   if (delPosition > arr.length || delPosition < 1)
     return alert("Please enter valid input");
 
-  for (let i = delPosition - 1; i < arr.length - 1; i++) {
+  for (let i = delPosition; i < arr.length - 1; i++) {
     arr[i] = arr[i + 1];
   }
 
-  arr.length = arr.length - 1;
+  --arr.length;
 
   console.log(arr);
 }
