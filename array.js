@@ -122,10 +122,30 @@ console.log("inside array");
 // }
 
 // ! only this methon works for desending order loop
-//? loop 3 (desending order) :- 
+//? loop 3 (desending order) :-
 // for (let i = arr.length - 1; i >= 0; i--) {
 //   console.warn(arr[i]);
 // }
+
+// ! ->> search element in array (Linear Search Algorithm)
+
+const arr = [1, 2, 3, 4, 5];
+
+const searchElem = 4;
+
+let itemIndex;
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] === searchElem) {
+    itemIndex = i;
+    break;
+  }
+}
+
+console.log(`elem ${searchElem} is at ${itemIndex}`);
+
+
+
 
 
 
