@@ -129,24 +129,20 @@ console.log("inside array");
 
 // ! ->> search element in array (Linear Search Algorithm)
 
-const arr = [1, 2, 3, 4, 5];
+// const arr = [1, 2, 3, 4, 5];
 
-const searchElem = 4;
+// const searchElem = 4;
 
-let itemIndex;
+// let itemIndex;
 
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] === searchElem) {
-    itemIndex = i;
-    break;
-  }
-}
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] === searchElem) {
+//     itemIndex = i;
+//     break;
+//   }
+// }
 
-console.log(`elem ${searchElem} is at ${itemIndex}`);
-
-
-
-
+// console.log(`elem ${searchElem} is at ${itemIndex}`);
 
 
 
