@@ -151,13 +151,16 @@ console.log("inside array");
 
 // const newArr = [];
 
-// for(let i = 0; i < arr1.length; i++){
-//   newArr.push(arr1[i])
+// for (let i = 0; i < arr1.length; i++) {
+// newArr.push(arr1[i]);
+//   newArr[i] = arr1[i]; // ? custom imple
 // }
 
-// for(let i = 0; i < arr2.length; i++){
-//   newArr.push(arr2[i])
+// for (let i = 0; i < arr2.length; i++) {
+// newArr.push(arr2[i]);
+//   newArr[arr1.length + i] = arr2[i]; // ? custom imple
 // }
-
 
 // console.log(newArr);
+
+
