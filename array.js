@@ -187,3 +187,22 @@ console.log("inside array");
 
 // console.log("Merged array:", newArr);
 
+// ! ->> array sorting - Bubble Sort
+
+//? i = 0; j = 0;
+// const arr = [99, 78, 84, 69, 23, 19, 10, 34, 45, 60];
+// console.log(arr);
+
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = 0; j < arr.length; j++) {
+//     console.log({ i, j, p1: arr[j], p2: arr[j + 1] });
+//     if (arr[j] > arr[j + 1]) {
+//       let temp = arr[j];
+//       arr[j] = arr[j + 1];
+//       arr[j + 1] = temp;
+//     }
+//     console.log("post:", arr);
+//   }
+// }
+
+// console.log(arr);
