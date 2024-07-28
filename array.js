@@ -219,3 +219,19 @@ console.log("inside array");
 // const data  = 10;
 
 // myRecursion(data)
+
+// ? Factorial using Recursion
+
+const number = 5;
+
+function getFactorial(num) {
+    if (num == 0){
+        return 1;
+    }
+
+    return num * getFactorial(num - 1)
+}
+
+const factorial = getFactorial(number);
+
+console.log(`factorial of ${number} is ${factorial}`);
