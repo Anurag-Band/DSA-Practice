@@ -207,7 +207,7 @@ console.log("inside array");
 
 // console.log(arr);
 
-// ! ->> Recursion
+// ! ->> Recursion - Direct Recursion
 
 // function myRecursion(item) {
 //     console.log(item);
@@ -235,3 +235,27 @@ console.log("inside array");
 // const factorial = getFactorial(number);
 
 // console.log(`factorial of ${number} is ${factorial}`);
+
+// ! ->> Recursion - In Direct Recursion
+//? calling two functions into each other
+
+// let wallet = 100;
+// const costOfOneApple = 10;
+// let TotalApple = 0;
+
+// function buyApple(wallet) {
+//   if (wallet > 0) {
+//     console.log(`I have ${TotalApple} apples & ${wallet} is remaining`);
+//     buyMore(wallet);
+//   } else {
+//     console.log(`I don't have more money to buy`);
+//   }
+// }
+
+// function buyMore(wallet) {
+//   TotalApple++;
+//   buyApple(wallet - costOfOneApple);
+// }
+
+// buyApple(wallet);
+// console.log(`Total Apples : ${TotalApple}`);
