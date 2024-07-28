@@ -222,16 +222,16 @@ console.log("inside array");
 
 // ? Factorial using Recursion
 
-const number = 5;
+// const number = 5;
 
-function getFactorial(num) {
-    if (num == 0){
-        return 1;
-    }
+// function getFactorial(num) {
+//     if (num == 0){
+//         return 1;
+//     }
 
-    return num * getFactorial(num - 1)
-}
+//     return num * getFactorial(num - 1)
+// }
 
-const factorial = getFactorial(number);
+// const factorial = getFactorial(number);
 
-console.log(`factorial of ${number} is ${factorial}`);
+// console.log(`factorial of ${number} is ${factorial}`);
