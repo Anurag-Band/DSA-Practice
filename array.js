@@ -206,3 +206,16 @@ console.log("inside array");
 // }
 
 // console.log(arr);
+
+// ! ->> Recursion
+
+// function myRecursion(item) {
+//     console.log(item);
+//     if(item > 0 ){
+//         return myRecursion(item - 1)
+//     }
+// }
+
+// const data  = 10;
+
+// myRecursion(data)
